@@ -1,7 +1,115 @@
+@charset "UTF-8";
+body {
+  font-family: "Noto Sans TC", sans-serif, "Roboto", sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.bgCoverCenter {
+  background-size: cover;
+  background-position: center center;
+}
+
+/*滾動選單列*/
+.menu-scroller {
+  height: 3.5rem;
+  /* 隱藏下方捲軸 */
+  overflow-y: hidden;
+  border-bottom: 3px solid #707070;
+}
+
+.menu-scroller .menu-nav {
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  /* 隱藏下方捲軸 */
+  overflow-x: scroll;
+  white-space: pre;
+}
+
+.menu-scroller .menu-nav .nav-link:hover {
+  border-bottom: 3px solid #190014CC;
+}
+
+/*設計頁樣式元件化*/
+.design-items {
+  height: 503px;
+  background-color: #630834;
+}
+
+@media (min-width: 768px) {
+  .design-items {
+    height: 417px;
+  }
+}
+
+.design-items img {
+  height: 221px;
+}
+
+@media (min-width: 768px) {
+  .design-items img {
+    height: 285px;
+  }
+}
+
+/*pages*/
+.subscribeUs {
+  background-image: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/wladislaw-peljuchno-Y_f1aHpR1tc-unsplash.jpg?raw=true");
+  height: 320px;
+}
+
+.indexBanner {
+  background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/exhibition-week6/ricardo-gomez-angel-UrOZTfXT0h0-unsplash%20(1).jpg");
+  height: 480px;
+}
+
+.reviewBanner {
+  background-image: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/people2.png?raw=true");
+  height: 482px;
+}
+
+@media (min-width: 992px) {
+  .position-lg-absolute {
+    position: absolute;
+  }
+  .translate-lg-middle {
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+}
+
+.moreSuggests img {
+  width: 100%;
+  height: 350px;
+}
+
+.cartOffcanvas {
+  width: 540px;
+  top: 10.4%;
+  right: 0;
+  -webkit-transform: translateX(100%);
+      -ms-transform: translateX(100%);
+          transform: translateX(100%);
+  /*沿著X軸移動100%*/
+}
+
 .index__h1 {
   color: #00cc99;
   font-size: 20px;
   font-weight: 400;
+}
+
+.review-info {
+  background-color: #190014CC;
+  opacity: 1;
+  height: 482px;
 }
 
 /*# sourceMappingURL=all.css.map */
