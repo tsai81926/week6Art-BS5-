@@ -1,1 +1,8 @@
-@import './layout/_index.scss';
+@import './helpers/_base';
+@import './helpers/_utils.scss';
+@import './components/_components.scss';
+
+/*pages*/
+@import './layout/banners.scss';
+@import './layout/_layout.scss';
+@import './pages/_index.scss';

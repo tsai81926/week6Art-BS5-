@@ -1,0 +1,13 @@
+$font-noto:'Noto Sans TC', sans-serif;
+$font-roboto:'Roboto', sans-serif;
+
+body{
+    font-family: $font-noto, $font-roboto;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    object-fit: cover;
+}

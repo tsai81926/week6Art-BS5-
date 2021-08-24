@@ -1,0 +1,31 @@
+/*滾動選單列*/
+.menu-scroller {
+    height: 3.5rem; /* 隱藏下方捲軸 */
+    overflow-y: hidden; 
+    border-bottom: 3px solid #707070;
+    .menu-nav {
+      flex-wrap: nowrap;
+      ; /* 隱藏下方捲軸 */
+      overflow-x:scroll;
+      white-space: pre;
+      .nav-link:hover {
+        border-bottom: 3px solid #190014CC;
+      }
+    }
+  }
+
+
+/*設計頁樣式元件化*/
+.design-items{
+  height: 503px;
+  background-color: #630834;
+  @media (min-width:768px){
+      height: 417px;
+  }
+  img {
+      height: 221px;
+      @media (min-width:768px){
+          height: 285px;
+      }
+  }
+}

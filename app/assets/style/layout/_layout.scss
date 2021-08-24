@@ -1,0 +1,22 @@
+@media (min-width:992px) {
+  .position-lg-absolute {
+    position: absolute;
+  }
+  .translate-lg-middle {
+    transform: translate(-50%, -50%);
+  }
+}
+
+.moreSuggests {
+  img {
+    width: 100%;
+    height: 350px;
+  }
+}
+
+.cartOffcanvas {
+  width: 540px;
+  top: 10.4%;
+  right: 0;
+  transform: translateX(100%);  /*沿著X軸移動100%*/
+}
